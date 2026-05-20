@@ -5,7 +5,7 @@ Python 표준 라이브러리만 사용하는 콘솔 가계부입니다. 실행 
 ## 실행 방법
 
 ```sh
-cd <제출 폴더>
+cd codyssey-b2-1
 python3 -m budget_app --help
 ```
 
