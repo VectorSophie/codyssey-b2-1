@@ -1,18 +1,35 @@
 from __future__ import annotations
+
 from dataclasses import dataclass, field
+from typing import Any
 
 
-@dataclass
+@dataclass(slots=True)
 class Transaction:
     id: str
-    type: str       # "income" | "expense"
-    date: str       # YYYY-MM-DD
+    type: str
+    date: str
     amount: int
     category: str
     memo: str = ""
     tags: list[str] = field(default_factory=list)
 
-    def to_dict(self) -> dict:
+    @classmethod
+    def from_dict(cls, row: dict[str, Any]) -> "Transaction":
+        tags = row.get("tags", [])
+        if isinstance(tags, str):
+            tags = [tag.strip() for tag in tags.split(",") if tag.strip()]
+        return cls(
+            id=str(row["id"]),
+            type=str(row["type"]),
+            date=str(row["date"]),
+            amount=int(row["amount"]),
+            category=str(row["category"]),
+            memo=str(row.get("memo", "")),
+            tags=list(tags),
+        )
+
+    def to_dict(self) -> dict[str, Any]:
         return {
             "id": self.id,
             "type": self.type,
@@ -23,39 +40,52 @@ class Transaction:
             "tags": self.tags,
         }
 
-    @classmethod
-    def from_dict(cls, d: dict) -> Transaction:
-        return cls(
-            id=d["id"],
-            type=d["type"],
-            date=d["date"],
-            amount=int(d["amount"]),
-            category=d["category"],
-            memo=d.get("memo", ""),
-            tags=d.get("tags") or [],
-        )
 
-
-@dataclass
+@dataclass(slots=True)
 class Budget:
-    month: str   # YYYY-MM
+    month: str
     amount: int
 
-    def to_dict(self) -> dict:
+    @classmethod
+    def from_dict(cls, row: dict[str, Any]) -> "Budget":
+        return cls(month=str(row["month"]), amount=int(row["amount"]))
+
+    def to_dict(self) -> dict[str, Any]:
         return {"month": self.month, "amount": self.amount}
 
+
+@dataclass(slots=True)
+class RecurringRule:
+    id: str
+    type: str
+    day: int
+    amount: int
+    category: str
+    memo: str = ""
+    tags: list[str] = field(default_factory=list)
+
     @classmethod
-    def from_dict(cls, d: dict) -> Budget:
-        return cls(month=d["month"], amount=int(d["amount"]))
+    def from_dict(cls, row: dict[str, Any]) -> "RecurringRule":
+        tags = row.get("tags", [])
+        if isinstance(tags, str):
+            tags = [tag.strip() for tag in tags.split(",") if tag.strip()]
+        return cls(
+            id=str(row["id"]),
+            type=str(row["type"]),
+            day=int(row["day"]),
+            amount=int(row["amount"]),
+            category=str(row["category"]),
+            memo=str(row.get("memo", "")),
+            tags=list(tags),
+        )
 
-
-@dataclass
-class Category:
-    name: str
-
-    def to_dict(self) -> dict:
-        return {"name": self.name}
-
-    @classmethod
-    def from_dict(cls, d: dict) -> Category:
-        return cls(name=d["name"])
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "id": self.id,
+            "type": self.type,
+            "day": self.day,
+            "amount": self.amount,
+            "category": self.category,
+            "memo": self.memo,
+            "tags": self.tags,
+        }
