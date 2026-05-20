@@ -1,0 +1,51 @@
+{"amount": 4200000, "category": "salary", "date": "2026-01-25", "id": "TX-000001", "memo": "1월 급여", "tags": ["income", "monthly"], "type": "income"}
+{"amount": 720000, "category": "rent", "date": "2026-01-01", "id": "TX-000002", "memo": "월세", "tags": ["fixed"], "type": "expense"}
+{"amount": 128000, "category": "utilities", "date": "2026-01-05", "id": "TX-000003", "memo": "전기 가스 수도", "tags": ["fixed", "home"], "type": "expense"}
+{"amount": 68000, "category": "food", "date": "2026-01-07", "id": "TX-000004", "memo": "장보기", "tags": ["grocery"], "type": "expense"}
+{"amount": 18500, "category": "coffee", "date": "2026-01-09", "id": "TX-000005", "memo": "카페 작업", "tags": ["coffee", "work"], "type": "expense"}
+{"amount": 52000, "category": "transport", "date": "2026-01-12", "id": "TX-000006", "memo": "교통카드 충전", "tags": ["commute"], "type": "expense"}
+{"amount": 95000, "category": "entertainment", "date": "2026-01-20", "id": "TX-000007", "memo": "영화와 저녁", "tags": ["weekend"], "type": "expense"}
+{"amount": 350000, "category": "savings", "date": "2026-01-26", "id": "TX-000008", "memo": "적금", "tags": ["saving"], "type": "expense"}
+{"amount": 4200000, "category": "salary", "date": "2026-02-25", "id": "TX-000009", "memo": "2월 급여", "tags": ["income", "monthly"], "type": "income"}
+{"amount": 720000, "category": "rent", "date": "2026-02-01", "id": "TX-000010", "memo": "월세", "tags": ["fixed"], "type": "expense"}
+{"amount": 132000, "category": "utilities", "date": "2026-02-05", "id": "TX-000011", "memo": "공과금", "tags": ["fixed", "home"], "type": "expense"}
+{"amount": 82000, "category": "food", "date": "2026-02-08", "id": "TX-000012", "memo": "친구들과 점심", "tags": ["meal", "friends"], "type": "expense"}
+{"amount": 45000, "category": "health", "date": "2026-02-10", "id": "TX-000013", "memo": "감기 진료와 약", "tags": ["clinic"], "type": "expense"}
+{"amount": 120000, "category": "gift", "date": "2026-02-14", "id": "TX-000014", "memo": "생일 선물", "tags": ["family"], "type": "expense"}
+{"amount": 29000, "category": "coffee", "date": "2026-02-18", "id": "TX-000015", "memo": "원두 구매", "tags": ["coffee", "home"], "type": "expense"}
+{"amount": 400000, "category": "savings", "date": "2026-02-26", "id": "TX-000016", "memo": "비상금 저축", "tags": ["saving"], "type": "expense"}
+{"amount": 4200000, "category": "salary", "date": "2026-03-25", "id": "TX-000017", "memo": "3월 급여", "tags": ["income", "monthly"], "type": "income"}
+{"amount": 720000, "category": "rent", "date": "2026-03-01", "id": "TX-000018", "memo": "월세", "tags": ["fixed"], "type": "expense"}
+{"amount": 126000, "category": "utilities", "date": "2026-03-04", "id": "TX-000019", "memo": "공과금", "tags": ["fixed", "home"], "type": "expense"}
+{"amount": 158000, "category": "education", "date": "2026-03-06", "id": "TX-000020", "memo": "파이썬 강의", "tags": ["study"], "type": "expense"}
+{"amount": 76000, "category": "food", "date": "2026-03-11", "id": "TX-000021", "memo": "주말 장보기", "tags": ["grocery"], "type": "expense"}
+{"amount": 210000, "category": "travel", "date": "2026-03-16", "id": "TX-000022", "memo": "부산 왕복 기차", "tags": ["trip"], "type": "expense"}
+{"amount": 64000, "category": "hobby", "date": "2026-03-19", "id": "TX-000023", "memo": "보드게임 모임", "tags": ["fun"], "type": "expense"}
+{"amount": 400000, "category": "savings", "date": "2026-03-26", "id": "TX-000024", "memo": "적금", "tags": ["saving"], "type": "expense"}
+{"amount": 4200000, "category": "salary", "date": "2026-04-25", "id": "TX-000025", "memo": "4월 급여", "tags": ["income", "monthly"], "type": "income"}
+{"amount": 720000, "category": "rent", "date": "2026-04-01", "id": "TX-000026", "memo": "월세", "tags": ["fixed"], "type": "expense"}
+{"amount": 118000, "category": "utilities", "date": "2026-04-05", "id": "TX-000027", "memo": "공과금", "tags": ["fixed", "home"], "type": "expense"}
+{"amount": 99000, "category": "food", "date": "2026-04-08", "id": "TX-000028", "memo": "마트 장보기", "tags": ["grocery"], "type": "expense"}
+{"amount": 36000, "category": "coffee", "date": "2026-04-12", "id": "TX-000029", "memo": "카페 회의", "tags": ["coffee", "work"], "type": "expense"}
+{"amount": 87000, "category": "transport", "date": "2026-04-15", "id": "TX-000030", "memo": "택시와 지하철", "tags": ["commute"], "type": "expense"}
+{"amount": 180000, "category": "health", "date": "2026-04-20", "id": "TX-000031", "memo": "건강검진", "tags": ["clinic"], "type": "expense"}
+{"amount": 450000, "category": "savings", "date": "2026-04-26", "id": "TX-000032", "memo": "적금", "tags": ["saving"], "type": "expense"}
+{"amount": 4200000, "category": "salary", "date": "2026-05-25", "id": "TX-000033", "memo": "5월 급여", "tags": ["income", "monthly"], "type": "income"}
+{"amount": 720000, "category": "rent", "date": "2026-05-01", "id": "TX-000034", "memo": "월세", "tags": ["fixed"], "type": "expense"}
+{"amount": 124000, "category": "utilities", "date": "2026-05-04", "id": "TX-000035", "memo": "공과금", "tags": ["fixed", "home"], "type": "expense"}
+{"amount": 88000, "category": "food", "date": "2026-05-07", "id": "TX-000036", "memo": "점심 회식", "tags": ["meal", "team"], "type": "expense"}
+{"amount": 33500, "category": "coffee", "date": "2026-05-09", "id": "TX-000037", "memo": "라떼와 디저트", "tags": ["coffee"], "type": "expense"}
+{"amount": 260000, "category": "travel", "date": "2026-05-12", "id": "TX-000038", "memo": "제주 숙소 예약", "tags": ["trip"], "type": "expense"}
+{"amount": 73000, "category": "entertainment", "date": "2026-05-15", "id": "TX-000039", "memo": "콘서트 예매", "tags": ["music"], "type": "expense"}
+{"amount": 500000, "category": "savings", "date": "2026-05-26", "id": "TX-000040", "memo": "적금", "tags": ["saving"], "type": "expense"}
+{"amount": 4200000, "category": "salary", "date": "2026-06-25", "id": "TX-000041", "memo": "6월 급여", "tags": ["income", "monthly"], "type": "income"}
+{"amount": 720000, "category": "rent", "date": "2026-06-01", "id": "TX-000042", "memo": "월세", "tags": ["fixed"], "type": "expense"}
+{"amount": 130000, "category": "utilities", "date": "2026-06-05", "id": "TX-000043", "memo": "공과금", "tags": ["fixed", "home"], "type": "expense"}
+{"amount": 111000, "category": "food", "date": "2026-06-09", "id": "TX-000044", "memo": "주간 식비", "tags": ["grocery"], "type": "expense"}
+{"amount": 54000, "category": "transport", "date": "2026-06-11", "id": "TX-000045", "memo": "교통카드 충전", "tags": ["commute"], "type": "expense"}
+{"amount": 89000, "category": "hobby", "date": "2026-06-14", "id": "TX-000046", "memo": "사진 장비 대여", "tags": ["photo"], "type": "expense"}
+{"amount": 64000, "category": "gift", "date": "2026-06-18", "id": "TX-000047", "memo": "집들이 선물", "tags": ["friends"], "type": "expense"}
+{"amount": 500000, "category": "savings", "date": "2026-06-26", "id": "TX-000048", "memo": "적금", "tags": ["saving"], "type": "expense"}
+{"amount": 4200000, "category": "salary", "date": "2026-01-25", "id": "TX-000049", "memo": "월급", "tags": ["income", "monthly"], "type": "income"}
+{"amount": 125000, "category": "utilities", "date": "2026-01-05", "id": "TX-000050", "memo": "공과금", "tags": ["fixed", "home"], "type": "expense"}
+{"amount": 450000, "category": "savings", "date": "2026-01-26", "id": "TX-000051", "memo": "적금", "tags": ["saving"], "type": "expense"}

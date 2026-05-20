@@ -1,0 +1,4 @@
+{"amount": 4200000, "category": "salary", "day": 25, "id": "RR-000001", "memo": "월급", "tags": ["income", "monthly"], "type": "income"}
+{"amount": 720000, "category": "rent", "day": 1, "id": "RR-000002", "memo": "월세", "tags": ["fixed"], "type": "expense"}
+{"amount": 125000, "category": "utilities", "day": 5, "id": "RR-000003", "memo": "공과금", "tags": ["fixed", "home"], "type": "expense"}
+{"amount": 450000, "category": "savings", "day": 26, "id": "RR-000004", "memo": "적금", "tags": ["saving"], "type": "expense"}
